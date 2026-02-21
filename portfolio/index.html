@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/Ukasha logo with tech design.png">
+  <meta name="description" content="Ukasha Zarar Ansari - CSE Student | Web Developer | Problem Solver">
+  <title>Ukasha Ansari Portfolio </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <body>
+
+    <div class="global-bg">
+      <span class="blob blob--1"></span>
+      <span class="blob blob--2"></span>
+      <span class="blob blob--3"></span>
+    </div>
+  
+
+
+
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <img src="assets/Ukasha logo with tech design.png" alt="Ukasha Ansari Logo" class="nav__logo-img" width="50" height="50">
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#hero" class="nav__link active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#certificates" class="nav__link">Certificates</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__gradient hero__gradient--1"></div>
+        <div class="hero__gradient hero__gradient--2"></div>
+        <div class="hero__gradient hero__gradient--3"></div>
+        <div class="hero__grid"></div>
+      </div>
+      <div class="hero__content container">
+        <p class="hero__greeting" style="font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 0.5rem; letter-spacing: 0.1em; text-transform: uppercase;">Hi, I'm </p>
+        <h1 class="hero__name">Ukasha Zarar Ansari</h1>
+        <p class="hero__typing-wrapper">
+          <span class="hero__typing" id="typing-text"></span>
+          <span class="hero__cursor">|</span>
+        </p>
+        <p class="hero__intro">
+          An enthusiastic CSE student eager to gain real-world experience. Strong foundation in programming 
+          and a passion for building clean, user-friendly web apps. I value responsibility and teamwork.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="assets/Ukasha Resume 1.pdf" class="btn btn--secondary" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      
+      <div class="container">
+        <h2 class="section__title reveal">About Me</h2>
+        <div class="about__card about__card--theme glass-card reveal">
+          <div class="about__content">
+            <p class="about__bio">
+              I'm a Computer Science undergraduate at SGGSIE&T, Nanded, building a strong base in programming and software development. 
+              I've built web clones and data projects to sharpen my front-end and full-stack skills and data sense.
+            </p>
+            <p class="about__goal">
+              I'm looking for my first industry role where I can contribute to real products, learn from experienced engineers, and grow in 
+              full-stack or data-oriented work. I stay organized, own my tasks, and enjoy collaborating in teams.
+            </p>
+            <p class="about__interests">
+              Beyond coursework, I focus on problem-solving (DSA), web tech (React, Node), and data (Python, EDA). I'm also exploring 
+              ML and system design to round out my profile.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="education__bg"></div>
+      <div class="container">
+        <h2 class="section__title reveal">Education</h2>
+        <div class="education__timeline">
+          <div class="edu-card glass-card reveal">
+            <div class="edu-card__accent"></div>
+            <div class="edu-card__content">
+              <span class="edu-card__label">Degree</span>
+              <h3 class="edu-card__degree">B.Tech, Computer Science Engineering</h3>
+              <p class="edu-card__school">Shri Guru Gobind Singhji Institute of Engineering & Technology, Nanded</p>
+              <p class="edu-card__period">2023 – 2027 (Expected)</p>
+            </div>
+          </div>
+          <div class="edu-card glass-card reveal">
+            <div class="edu-card__accent"></div>
+            <div class="edu-card__content">
+              <span class="edu-card__label">Higher Secondary</span>
+              <h3 class="edu-card__degree">Class 12 (HSC)</h3>
+              <p class="edu-card__school">Yousufia Jr College</p>
+              <p class="edu-card__period">2020 – 2022</p>
+            </div>
+          </div>
+          <div class="edu-card glass-card reveal">
+            <div class="edu-card__accent"></div>
+            <div class="edu-card__content">
+              <span class="edu-card__label">Secondary</span>
+              <h3 class="edu-card__degree">Class 10 (SSC) </h3>
+              <p class="edu-card__school">Sana High School</p>
+              <p class="edu-card__period">2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <h2 class="section__title reveal">Skills</h2>
+        <div class="skills__categories">
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">Languages</h3>
+            <div class="skill-category__list">
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C" width="32" height="32" /><span>C</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="32" height="32" /><span>Python</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="32" height="32" /><span>Java</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" width="32" height="32" /><span>JavaScript</span></div>
+            </div>
+          </div>
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">Frontend</h3>
+            <div class="skill-category__list">
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" width="32" height="32" /><span>HTML</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" width="32" height="32" /><span>CSS</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="32" height="32" /><span>React</span></div>
+            </div>
+          </div>
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">Backend</h3>
+            <div class="skill-category__list">
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" width="32" height="32" /><span>Node.js</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express" width="32" height="32" /><span>Express.js</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="32" height="32" /><span>MongoDB</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" width="32" height="32" /><span>MySQL</span></div>
+            </div>
+          </div>
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">Data & ML</h3>
+            <div class="skill-category__list">
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="NumPy" width="32" height="32" /><span>NumPy</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas" width="32" height="32" /><span>Pandas</span></div>
+              <div class="skill-item skill-item--icon"><span class="skill-item__svg" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M7 16v-5h4v5M14 16V9h4v7M7 11V7h4v4"/></svg></span><span>Matplotlib</span></div>
+              <div class="skill-item skill-item--icon"><span class="skill-item__svg" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg></span><span>EDA</span></div>
+              <div class="skill-item skill-item--icon"><span class="skill-item__svg" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg></span><span>DSA</span></div>
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="ML" width="32" height="32" /><span>ML</span></div>
+            </div>
+          </div>
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">Tools & Soft</h3>
+            <div class="skill-category__list">
+              <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="32" height="32" /><span>Git</span></div>
+              <div class="skill-item skill-item--icon"><span class="skill-item__svg" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.5 11l3 3 5-7"/><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></span><span>Problem Solving</span></div>
+              <div class="skill-item skill-item--icon"><span class="skill-item__svg" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></span><span>Soft Skills</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certificates" id="certificates">
+      <div class="container">
+        <h2 class="section__title reveal">Certificates</h2>
+        <div class="certs__grid">
+          <div class="cert-card glass-card reveal">
+            <h3 class="cert-card__title">NPTEL — Programming in Java</h3>
+            <p class="cert-card__desc">OOP concepts, multithreading, exception handling, and GUI development.</p>
+            <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs57/Course/NPTEL25CS57S125310013904436807.pdf" class="cert-card__link" target="_blank" rel="noopener">See Certificate →</a>
+          </div>
+          <div class="cert-card glass-card reveal">
+            <h3 class="cert-card__title">Scaler — Java Course</h3>
+            <p class="cert-card__desc">Core Java, OOP principles, Collections, and practical coding exercises.</p>
+            <a href="https://moonshot.scaler.com/s/sl/s9YPnD3sMf?_gl=1*et8y0b*_gcl_au*MjAzMDgzMDMxMy4xNzU0MTIzMjI2*FPAU*MjAzMDgzMDMxMy4xNzU0MTIzMjI2*_ga*MTUxOTQwNjYxMS4xNzU0MTIzMTkw*_ga_53S71ZZG1X*czE3NTY3MzM2NjMkbzM1JGcxJHQxNzU2NzM0MTk1JGo0MiRsMCRoMTczMTExODA1Mw" class="cert-card__link" target="_blank" rel="noopener">See Certificate →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section__title reveal">Projects</h2>
+        <div class="projects__grid">
+          <article class="project-card glass-card reveal">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=600&q=80" alt="Netflix-style streaming" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Netflix Landing Page Clone</h3>
+              <p class="project-card__desc">A static clone of Netflix's homepage built with HTML and CSS.</p>
+              <div class="project-card__tags">
+                <span>HTML</span><span>CSS</span>
+              </div>
+              <div class="project-card__links">
+                <a href="https://netflicclonebyuza.netlify.app/" class="project-card__link" target="_blank" rel="noopener" aria-label="Live Demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1694445645168-07c1645f27a1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Music player" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Spotify Music Player Clone</h3>
+              <p class="project-card__desc">Music player with play/pause, next/prev, and song cards. Built with HTML, CSS, and JavaScript.</p>
+              <div class="project-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-card__links">
+                <a href="https://spotifyukz.netlify.app/" class="project-card__link" target="_blank" rel="noopener" aria-label="Live Demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&q=80" alt="Task manager productivity" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">ToDo-List App</h3>
+              <p class="project-card__desc">A sleek and responsive task manager built with React for daily organization.</p>
+              <div class="project-card__tags">
+                <span>React</span>
+              </div>
+              <div class="project-card__links">
+                <a href="https://myuza-todo-app.netlify.app/" class="project-card__link" target="_blank" rel="noopener" aria-label="Live Demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Data analytics dashboard" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Exploratory Data Analysis (EDA)</h3>
+              <p class="project-card__desc">Data cleaning, missing value handling, outlier detection, visualization, and insights extraction.</p>
+              <div class="project-card__tags">
+                <span>Python</span><span>Pandas</span><span>Matplotlib</span>
+              </div>
+              <div class="project-card__links">
+                <a href="https://colab.research.google.com/drive/1vHH1OPIjVSqwcxIHFBORoKdKlb8_qze7?usp=sharing" class="project-card__link" target="_blank" rel="noopener" aria-label="Colab Notebook">Colab Notebook</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section__title reveal">Get In Touch</h2>
+        <div class="contact__wrapper glass-card reveal">
+          <form class="contact__form" id="contact-form" novalidate>
+            <div class="form__group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+              <span class="form__error" id="name-error"></span>
+            </div>
+            <div class="form__group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+              <span class="form__error" id="email-error"></span>
+            </div>
+            <div class="form__group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+              <span class="form__error" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+            <p class="form__success" id="form-success" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <div class="footer__social">
+        <a href="https://github.com/ukashazarar" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/ukasha-zarar-ansari" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:ukashaansari2005@gmail.com" class="footer__link" aria-label="Email">Email</a>
+     
+      </div>
+      <p class="footer__copy">&copy; <span id="year"></span> Ukasha Zarar Ansari. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
